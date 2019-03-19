@@ -32,7 +32,7 @@ class Game:
         # The current state of the board:
         curr_state = "draw"
         # The possible states of the board:
-        states = {1: "player_1 won!", 8: "player_2 won!", 0: "continue"}
+        states = {1: "player 1 won!", 8: "player 2 won!", 0: "continue"}
         for key in states:
             if key in prods:
                 print(states[key])
