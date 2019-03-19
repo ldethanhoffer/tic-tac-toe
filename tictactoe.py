@@ -3,7 +3,7 @@ from IPython.display import clear_output
 import matplotlib.pyplot as plt
 
 
-# Some additional helper functions:
+# An additional helper function:
 def get_products(board):
     # Compute products accross rows, columns and diagonals:
     row_prod = [np.prod([board[i, j] for i in range(0, 3)]) for j in range(0, 3)]
